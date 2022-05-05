@@ -26,6 +26,15 @@ body, html{
     position:fixed;
     z-index:1001;
 }
+#left-menu #left-btn{
+    font-size: 40px;
+    color: rgb(231, 205, 227);
+    position: absolute;
+    left: 220px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
 /* 页面内容 */
 #contenct{
     position:relative;
@@ -33,7 +42,6 @@ body, html{
     margin-left:220px;
     margin-right:20px;
     padding:10px 0;
-    /* background: rgb(223, 230, 235); */
 }
 /* 页面底部 */
 #footer{

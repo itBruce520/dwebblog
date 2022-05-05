@@ -3,51 +3,55 @@
     <!-- 头部导航 -->
     <div id="top-menu" class="dweb"></div>
     <!-- 侧边栏 左 导航 -->
-    <div id="left-menu" class="dweb"></div>
+    <div id="left-menu" class="dweb">
+      <el-icon id="left-btn">
+        <Menu />
+      </el-icon>
+    </div>
     <!-- 页面内容 -->
     <div id="contenct">
       <el-row :gutter="20">
         <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
+          <div class="dweb" style="height: 250px"></div>
         </el-col>
         <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
+          <div class="dweb" style="height: 250px"></div>
         </el-col>
         <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
-        </el-col>
-      </el-row>
-            <el-row :gutter="20">
-        <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
-        </el-col>
-        <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
-        </el-col>
-        <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
+          <div class="dweb" style="height: 250px"></div>
         </el-col>
       </el-row>
-            <el-row :gutter="20">
+      <el-row :gutter="20">
         <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
+          <div class="dweb" style="height: 250px"></div>
         </el-col>
         <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
+          <div class="dweb" style="height: 250px"></div>
         </el-col>
         <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
+          <div class="dweb" style="height: 250px"></div>
         </el-col>
       </el-row>
-            <el-row :gutter="20">
+      <el-row :gutter="20">
         <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
+          <div class="dweb" style="height: 250px"></div>
         </el-col>
         <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
+          <div class="dweb" style="height: 250px"></div>
         </el-col>
         <el-col :span="8">
-          <div class="dweb" style="height:250px"></div>
+          <div class="dweb" style="height: 250px"></div>
+        </el-col>
+      </el-row>
+      <el-row :gutter="20">
+        <el-col :span="8">
+          <div class="dweb" style="height: 250px"></div>
+        </el-col>
+        <el-col :span="8">
+          <div class="dweb" style="height: 250px"></div>
+        </el-col>
+        <el-col :span="8">
+          <div class="dweb" style="height: 250px"></div>
         </el-col>
       </el-row>
       <div id="footer" class="dweb">
@@ -60,15 +64,13 @@
 
 
 <script  setup>
+
 </script>
 
 
 
-
-
 <style>
-.el-row{
+.el-row {
   margin-top: 10px;
 }
-
 </style>
